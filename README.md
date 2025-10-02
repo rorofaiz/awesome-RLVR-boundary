@@ -90,6 +90,14 @@ From these results emerges a critical challenge: how to find progress where base
 
 ### Methodology
 
+- **[[arXiv:2507.13266]](https://arxiv.org/abs/2507.13266) QuestA: Expanding Reasoning Capacity in LLMs via Question Augmentation**
+
+  Authors: Jiazheng Li, Hongzhou Lin, Hong Lu, Kaiyue Wen, Zaiwen Yang, Jiaxuan Gao, Yi Wu, Jingzhao Zhang
+    <details>
+    <summary>Abstract</summary>
+    Reinforcement learning (RL) has emerged as a central paradigm for training large language models (LLMs) in reasoning tasks. Yet recent studies question RL's ability to incentivize reasoning capacity beyond the base model. This raises a key challenge: how can RL be adapted to solve harder reasoning problems more effectively? To address this challenge, we propose a simple yet effective strategy via Question Augmentation: introduce partial solutions during training to reduce problem difficulty and provide more informative learning signals. Our method, QuestA, when applied during RL training on math reasoning tasks, not only improves pass@1 but also pass@k-particularly on problems where standard RL struggles to make progress. This enables continual improvement over strong open-source models such as DeepScaleR and OpenMath Nemotron, further enhancing their reasoning capabilities. We achieve new state-of-the-art results on math benchmarks using 1.5B-parameter models: 72.50% (+10.73%) on AIME24, 62.29% (+12.79%) on AIME25, and 41.67% (+10.11%) on HMMT25. Code, data and model are available at this https URL.
+    </details>
+  
 - **[[arXiv:2509.25666]](https://arxiv.org/abs/2509.25666) Nudging the Boundaries of LLM Reasoning** | [Twitter](https://x.com/cyjustinchen/status/1973423783374356491)
 
   Authors: Justin Chih-Yao Chen, Becky Xiangyu Peng, Prafulla Kumar Choubey, Kung-Hsiang Huang, Jiaxin Zhang, Mohit Bansal, Chien-Sheng Wu
@@ -104,6 +112,14 @@ From these results emerges a critical challenge: how to find progress where base
     <details>
     <summary>Abstract</summary>
     Large Language Models (LLMs) can self-improve through reinforcement learning, where they generate trajectories to explore and discover better solutions. However, this exploration process is computationally expensive, often forcing current methods to assign limited exploration budgets to each task. This uniform allocation creates problematic edge cases: easy tasks consistently succeed while difficult tasks consistently fail, both producing zero gradients during training updates for the widely used Group Relative Policy Optimization (GRPO). We address this problem from the lens of exploration budget allocation. Viewing each task's exploration as an "item" with a distinct "value" and "cost", we establish a connection to the classical knapsack problem. This formulation allows us to derive an optimal assignment rule that adaptively distributes resources based on the model's current learning status. When applied to GRPO, our method increases the effective ratio of non-zero policy gradients by 20-40% during training. Acting as a computational "free lunch", our approach could reallocate exploration budgets from tasks where learning is saturated to those where it is most impactful. This enables significantly larger budgets (e.g., 93 rollouts) for especially challenging problems, which would be computationally prohibitive under a uniform allocation. These improvements translate to meaningful gains on mathematical reasoning benchmarks, with average improvements of 2-4 points and peak gains of 9 points on specific tasks. Notably, achieving comparable performance with traditional homogeneous allocation would require about 2x the computational resources.
+    </details>
+
+- **[[Notion Blog]](https://spiffy-airbus-472.notion.site/What-Can-You-Do-When-You-Have-Zero-Rewards-During-RL-260429bdb7308024b6bdd3ed4f64c15f) What Can You Do When You Have Zero Rewards During RL?** | [Code](https://github.com/rl4reasoning/rl-baselines)
+
+  Authors: Jatin Prakash*, Anirudh Buvanesh*
+    <details>
+    <summary>Takeaway</summary>
+    1) When the base model can’t solve a task at all (i.e., outcome rewards are always zero during RL training), we show that a *simple* data-centric intervention of adding easier instances of the same task in the training set works surprisingly well! 2) Choice of easy instances that you add matters! Adding only *very* easy examples doesn’t help. However, you don’t need to hunt for the “*perfect difficulty.*” Mixing all the easier instances you have works! 3) We benchmark methods that incorporate desirable components to tackle zero outcome rewards such as dense rewards, diversity incentives, and improved credit assignment, and find none of these to be effective in our settings. Since there was no official code for these baselines, we’re releasing (single-file, hackable) code for our implementation. Hopefully you’ll find it useful in your own experiments 4) We conclude with a simple and practical recipe for RL practitioners: add all available easier instances of the task that one can get their hands on! We also connect our findings to ideas in *skill* learning and related prior work.
     </details>
 
 ### Discussion
