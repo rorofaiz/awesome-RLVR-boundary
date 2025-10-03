@@ -22,6 +22,7 @@ A central debate in recent research concerns whether reinforcement learning (RL)
 
 **The skeptical view.**
 Limit of RLVR [[NeurIPS 2025]](https://arxiv.org/abs/2504.13837) argue that although RLVR-trained models outperform their base models at small \(k\) (e.g., \(k=1\)), the base models achieve equal or superior pass@k performance when \(k\) is large. Their coverage and perplexity analyses suggest that reasoning capabilities are ultimately bounded by the base model’s support. Similarly, [[arXiv:2507.14843]](https://arxiv.org/abs/2507.14843) provide a theoretical argument that RLVR cannot extend beyond the base model’s representational limits.
+
 **The intuition behind the skepticism is:** 
 Most RL-for-reasoning pipelines (GRPO/PPO variants) update the model by comparing rewards across multiple rollouts of the same prompt. If none of the rollouts solve the task (pass@K = 0), every sample is equally bad, so the gradients vanish.
 
@@ -47,6 +48,7 @@ From these results emerges a critical challenge: how to find progress where base
 ## Papers
 
 - **[[NeurIPS 2025]](https://arxiv.org/abs/2504.13837) Limit of RLVR: Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?**  
+
   Authors: Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Shiji Song, Gao Huang  
   Tags: ![Skepticism](https://img.shields.io/badge/Skepticism-%20-D32F2F?style=flat-square)  
   <details>
