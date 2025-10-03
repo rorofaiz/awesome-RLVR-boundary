@@ -90,7 +90,7 @@ From these results emerges a critical challenge: how to find progress where base
   
 - **[[arxiv:2508.19201]](https://arxiv.org/pdf/2508.19201) Understanding Tool-Integrated Reasoning**
 
-  Author: Heng Lin, Zhongwen Xi  
+  Author: Heng Lin, Zhongwen Xu  
   Tags: ![Optimism](https://img.shields.io/badge/Optimism-%20-1976D2?style=flat-square) ![Pass@k (improved)](https://img.shields.io/badge/Pass%40256%20(improved)-%20-2E7D32?style=flat-square)   
   <details>
     <summary>Abstract</summary>
