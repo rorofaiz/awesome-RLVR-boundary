@@ -46,7 +46,7 @@ From these results emerges a critical challenge: how to find progress where base
 (By pass@K, we typically refer to a $K\ge128$.)
 
 
-💡 **Submission Guideline**: 💡 For pull requests to this list, we strongly recommend that papers provide direct evidence enabling the inclusion of either the **Pass@k (improved)** or **Pass@k (0 to 1)** tags. Methodology improvements focused solely on pass@1 are no longer considered pertinent to this topic.
+💡 **Submission Guideline**: 💡 For pull requests to this list, we strongly recommend that papers provide direct evidence enabling the inclusion of either the **Pass@k (improved)** or **Pass@k (0 to 1)** tags for the Optimism category. Methodology improvements focused solely on pass@1 are no longer considered pertinent to this topic.
 
 
 ## Papers
