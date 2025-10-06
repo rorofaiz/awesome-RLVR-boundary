@@ -45,6 +45,10 @@ From these results emerges a critical challenge: how to find progress where base
 
 (By pass@K, we typically refer to a $K\ge128$.)
 
+
+💡 **Submission Guideline**: For pull requests to this list, we strongly recommend that papers provide direct evidence enabling the inclusion of either the **Pass@k (improved)** or **Pass@k (0 to 1)** tags. Methodology improvements focused solely on pass@1 are not considered pertinent to this topic.
+
+
 ## Papers
 
 - **[[NeurIPS 2025]](https://arxiv.org/abs/2504.13837) Limit of RLVR: Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?**  
